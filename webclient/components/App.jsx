@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router,Route,IndexRoute ,hashHistory} from 'react-router';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Search from './Search.jsx';
+import CardDetails from './CardDetails.jsx';
 
-injectTapEventPlugin();
 
 class App extends React.Component {
 	render() {
 		return(
-				<Router history = {hashHistory}>
-	      			<Route path = "/" component = {Search}>
-	     		    <IndexRoute component = {Search} />
-		            <Route path = "/search" component = {Search} />
-		            <Route path = "/movieDetails/:query" component = {MovieDetails}/>
-		            <Route path = "/about" component = {About} />
-		            <Route path = "/contact" component = {Contact} />
-	      			</Route>
+				<Router>
+	     		    <Route exact path="/webclient/" component={Search}/>
 	  			 </Router>
 			);
 	}
