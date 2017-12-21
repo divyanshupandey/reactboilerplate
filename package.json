@@ -1,0 +1,36 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "react boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshupandey/reactboilerplate.git"
+  },
+  "author": "Divyanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyanshupandey/reactboilerplate/issues"
+  },
+  "homepage": "https://github.com/divyanshupandey/reactboilerplate#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-grid-system": "^3.1.2",
+    "react-router": "^4.2.0",
+    "react-tap-event-plugin": "^3.0.2",
+    "superagent": "^3.8.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
