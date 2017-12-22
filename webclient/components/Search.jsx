@@ -115,9 +115,9 @@ class Search extends React.Component {
     var repos = [];
     if (this.state.repos.length > 0) {
       repos = this.state.repos.map((tile, i) => (
-        <Link>
+        
           <Card key={i} repoDetails={tile} />
-        </Link>
+        
       ));
     }
 
